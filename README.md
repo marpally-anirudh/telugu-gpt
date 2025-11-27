@@ -9,7 +9,8 @@ Focused on developing a GPT-style language model for Telugu, a low-resource Drav
 
 ## Author
 Anirudh Marpally
-M.Tech in Modelling & Simulation, Department of Applied Mathematics,
+M.Tech in Modelling & Simulation,
+Department of Applied Mathematics,
 Defence Institute of Advanced Technology (DIAT), DRDO, Pune.
 Linkedin -> https://www.linkedin.com/in/anirudh-marpally/
 
@@ -163,28 +164,28 @@ Each block contains:
 
 ## Work Completed
 
-### Phase 1: Research and Foundation
+### Stage 1: Research and Foundation
 
 - Literature review on GPT architecture and low-resource language modeling
 - Study of Telugu linguistic characteristics and NLP challenges
 - Analysis of tokenization strategies for morphologically rich languages
 - Environment setup (macOS, conda, Python development stack)
 
-### Phase 2: Data Preparation
+### Stage 2: Data Preparation
 
 - Telugu corpus collection from Wikipedia and public sources
 - Text cleaning and normalization pipeline
 - Data quality assessment and filtering
 - UTF-8 encoding verification
 
-### Phase 3: Tokenizer Development
+### Stage 3: Tokenizer Development
 
 - BPE tokenizer implementation from scratch
 - Tokenizer training on Telugu corpus
 - Vocabulary optimization for Telugu script
 - Tokenizer serialization (telugu_tokenizer.json)
 
-### Phase 4: Model Implementation
+### Stage 4: Model Implementation
 
 - GPT model architecture implementation
   - Multi-head self-attention mechanism
@@ -195,7 +196,7 @@ Each block contains:
 - Model configuration system
 - Parameter initialization strategies
 
-### Phase 5: Training Infrastructure
+### Stage 5: Training Infrastructure
 
 - Data loading and batching pipeline
 - Training loop with gradient accumulation
@@ -203,7 +204,7 @@ Each block contains:
 - Checkpointing system
 - Training metrics logging
 
-### Phase 6: Model Training
+### Stage 6: Model Training
 
 - Complete training run: 10 epochs
 - Checkpoint saving at epochs 1, 5, and 10
@@ -224,7 +225,6 @@ Final Training Statistics (10 epochs completed):
 | Final Validation Loss | 8.2320 |
 | Total Epochs | 10 |
 | Model Checkpoints | 10 saved |
-| Training Time | Approximately 11 minutes |
 | Compute Device | CPU (Apple Silicon) |
 
 ### Training Progress
@@ -545,7 +545,7 @@ This project is developed as part of academic research. Please contact for usage
 Anirudh Marpally
 Linkedin -> https://www.linkedin.com/in/anirudh-marpally/
 
-For questions, suggestions, or collaboration opportunities, please reach out via the university contact channels.
+For questions, suggestions, or collaboration opportunities, please reach out via Linkedin.
 
 ---
 
@@ -553,7 +553,7 @@ For questions, suggestions, or collaboration opportunities, please reach out via
 
 Current Status: Training Complete (10 epochs) - Evaluation Phase
 Last Updated: November 2025
-Next Milestone: Comprehensive model evaluation and thesis documentation
+Next Milestone: Training with more data.
 
 ---
 
